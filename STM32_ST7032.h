@@ -34,6 +34,7 @@ typedef struct {
 
 }ST7032_InitTypeDef;
 extern void LCD_ST7032_Init(ST7032_InitTypeDef *hlcd);
+extern void LCD_command (uint8_t cmd);
 extern void LCD_write_byte(uint8_t value);
 extern void LCD_setCursor(uint8_t line_num, uint8_t x);
 extern void LCD_custom(uint8_t custom_char[8],uint8_t custom_char_location);
