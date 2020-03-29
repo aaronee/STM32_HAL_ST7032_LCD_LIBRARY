@@ -2,7 +2,7 @@
 ST7032 LCD library compatible with STM32 HAL library 
 /*
  *	@File: README.MD
- *	@This file is free to be used, modified. This header must be remained. Thank you.
+ *	@This lib is free to be used, modified. headers must be remained. Thank you.
  *
  *	@Introduction: This project content the library written for ST7032 LCD + example code + related pics
  *  > This library is based on STM32 HAL library. You must use STM32 HAL library to use this library
