@@ -10,7 +10,7 @@ ST7032 LCD library compatible with STM32 HAL library
  *	> The library requires I2C_HandleTypeDef (Master mode) & TIM_HandleTypeDef (PWM mode) to control LCD
  *	> Some codes are based on ST7306LCD_Library from author @F. Malpartida, and can be found at URL:https://github.com/pkourany/ST7306LCD_Library
  *	@MainFunction:
- *	> Initializing ST7036 based LCD in 2 line display 5x8, inst table 1 as default
+ *	> Initializing ST7032 based LCD in 2 line display 5x8, inst table 1 as default
  *	> Controlling LCD cursor/blink, screen shift right/left, turn on/off, move cursor to home
  * 	> Loading custom character (8 characters)
  * 	> Sending command, char, string to LCD
