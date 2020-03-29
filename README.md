@@ -5,7 +5,8 @@ ST7032 LCD library compatible with STM32 HAL library
  *	@This lib is free to be used, modified. Headers must be remained. Thank you.
  *
  *	@Introduction: This project content the library written for ST7032 LCD + example code + related pics
- *  > This library is based on STM32 HAL library. You must use STM32 HAL library to use this library
+ *  > Example is written using Eclipse + ARM GCC for Blue Pill STM32f103c8t6 and LCD MIDAS MCCOG21605B6W-BNMLWI
+ *  > This library is based on STM32 HAL library. You must implement STM32 HAL library to use this library
  *	> The library requires I2C_HandleTypeDef (Master mode) & TIM_HandleTypeDef (PWM mode) to control LCD
  *	> Some codes are based on ST7306LCD_Library from author @F. Malpartida, and can be found at URL:https://github.com/pkourany/ST7306LCD_Library
  *	@MainFunction:
