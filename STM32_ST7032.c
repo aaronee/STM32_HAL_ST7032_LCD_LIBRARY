@@ -189,6 +189,13 @@ void LCD_write(const char *buffer)
  * location (0x00 -> 0x07)
  *
  * Ref link for learning: http://www.handsonembedded.com/lcd16x2-hd44780-tutorial-5/
+ * 
+ * If you have problem with loading custom character, you may want to custom your customcharacter[8] array from
+ * something like : customchar[8]= {0x00,0x00,0x00,0x18,0x00,0x00,0x00,0x00}
+ * to something   :	customchar[8]= {0x80,0x80,0x80,0x98,0x80,0x80,0x80,0x80}
+ * to make sure LCD_write((char*)cchar) will write your whole array without abour when meet 0x00 data
+ * As 3 first most significant bit will not affect your custom character
+ *
  * */
 void LCD_custom(uint8_t cchar[8],uint8_t cchar_location)
 {
