@@ -1,7 +1,10 @@
 # STM32_HAL_ST7032_LCD_LIBRARY
 ST7032 LCD library compatible with STM32 HAL library 
+
  @File: README.MD
+ 
  @This lib is provided as is and free to be used. Thank you.
+ 
   Please use the file in main folder (not in the example), as it will be the last update
   
   
@@ -20,7 +23,11 @@ ST7032 LCD library compatible with STM32 HAL library
  * Adjust contrast, backlight levels (require 1 pin for PWM to control backlight)
  
  @Bugs/requests: please contact via email, thank you.
+ 
  @Created on: Mar. 27, 2020
+ 
  @Author: AARONEE - khoahuynh
+ 
  @Email: khoahuynh.ld@gmail.com
- @Github: https://github.com/khoahuynhld
+ 
+ @Github: https://github.com/aaronee
